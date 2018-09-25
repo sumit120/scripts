@@ -3,7 +3,7 @@ chmod 644 /tmp/lemmslog
 #Checking for package exisitence
 if [ ! -d "/usr/local/patchagent" ]; then
 echo "Lumension is not running."
-echo "Lumension is not not running" | mail -s "LEMMS Status" sumitchauhan@navisite.com
+echo "Lumension is not not running" | mail -s "LEMMS Status" sumit1203@gmail.com
     exit 1
 fi
 cd /tmp
